@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:backgroundTint="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/heading"
+        android:textColor="@color/purple"
+        android:textSize="53sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_login_doc"
+        android:layout_width="311dp"
+        android:layout_height="182dp"
+        android:text="Login As a Doctor"
+        app:layout_constraintBottom_toTopOf="@+id/button_login_patient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <Button
+        android:id="@+id/button_login_patient"
+        android:layout_width="309dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="252dp"
+        android:text="Login as a Patient"
+        app:circularflow_defaultRadius="@dimen/cardview_compat_inset_shadow"
+        app:circularflow_radiusInDP="40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
