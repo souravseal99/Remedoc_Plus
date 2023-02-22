@@ -39,6 +39,7 @@
         android:layout_width="309dp"
         android:layout_height="182dp"
         android:layout_marginTop="252dp"
+        android:onClick="@string/title_activity_patient_login"
         android:text="Login as a Patient"
         app:circularflow_defaultRadius="@dimen/cardview_compat_inset_shadow"
         app:circularflow_radiusInDP="40"
