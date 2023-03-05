@@ -11,50 +11,41 @@
         android:id="@+id/imageView3"
         android:layout_width="155dp"
         android:layout_height="121dp"
-        android:layout_marginBottom="112dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767"
         app:srcCompat="@drawable/remind_med" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="155dp"
         android:layout_height="121dp"
-        android:layout_marginBottom="272dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521"
         app:srcCompat="@drawable/edit_profile" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="256dp"
         android:layout_height="84dp"
-        android:layout_marginTop="44dp"
         android:text="@string/heading"
         android:textColor="@color/purple"
         android:textSize="53sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
         tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="140dp"
-        android:layout_height="120dp"
-        android:text="Remind my Medicines"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
 
     <Button
         android:id="@+id/book_doc"
@@ -63,21 +54,23 @@
         android:onClick="book_app"
         android:text="Book an Appoinment"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.522" />
 
     <Button
         android:id="@+id/search_doc"
         android:layout_width="140dp"
         android:layout_height="120dp"
-        android:layout_marginBottom="112dp"
         android:text="Search Doctors"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
 
     <TextView
         android:id="@+id/textView2"
