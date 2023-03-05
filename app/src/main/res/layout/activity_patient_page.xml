@@ -8,17 +8,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="149dp"
-        android:layout_height="121dp"
-        android:layout_marginBottom="272dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
-    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="155dp"
         android:layout_height="121dp"
@@ -75,7 +64,6 @@
         android:text="Book an Appoinment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.549" />
@@ -84,7 +72,6 @@
         android:id="@+id/search_doc"
         android:layout_width="140dp"
         android:layout_height="120dp"
-        android:onClick="book_app"
         android:layout_marginBottom="112dp"
         android:text="Search Doctors"
         app:layout_constraintBottom_toBottomOf="parent"
