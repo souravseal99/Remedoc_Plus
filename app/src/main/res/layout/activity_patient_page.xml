@@ -38,6 +38,7 @@
         android:id="@+id/button3"
         android:layout_width="140dp"
         android:layout_height="120dp"
+        android:onClick="book_app"
         android:text="Book an Appoinment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
