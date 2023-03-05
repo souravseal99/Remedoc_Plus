@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Remedoc_plus"
         tools:targetApi="31">
         <activity
+            android:name=".Book_app1"
+            android:exported="false" />
+        <activity
             android:name=".Patient_Page"
             android:exported="false" />
         <activity

@@ -28,7 +28,7 @@ public class patient_login extends AppCompatActivity {
                 String userID = phone.getText().toString();
                 String password = pass.getText().toString();
 
-                if (userID.equals("6296822691") && password.equals("admin@123")){
+                if (userID.equals("8768068039") && password.equals("admin@123")){
                     SharedPreferences sharedPreferences = getSharedPreferences("loginData", MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString("username", userID);
