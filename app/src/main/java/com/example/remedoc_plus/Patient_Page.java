@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import com.example.myapplication102.MainActivity_102;
 
 public class Patient_Page extends AppCompatActivity {
@@ -25,5 +24,9 @@ public class Patient_Page extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+    public void book_app(View v){
+        Intent intent=new Intent(this,Book_app1.class);
+        startActivity(intent);
     }
 }
