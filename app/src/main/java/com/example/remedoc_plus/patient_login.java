@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class patient_login extends AppCompatActivity {
@@ -23,24 +24,44 @@ public class patient_login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 EditText phone = findViewById(R.id.patientLoginPhone);
+                String userTele = phone.getText().toString();
+
                 EditText pass = findViewById(R.id.patientLoginPassword);
+                String userPass = pass.getText().toString();
 
-                String userID = phone.getText().toString();
-                String password = pass.getText().toString();
+                Create_acnt.UserDataSource dataSource = new Create_acnt.UserDataSource(getApplicationContext());
+                dataSource.open();
+                Create_acnt.User user = dataSource.login(userTele, userPass);
 
-                if (userID.equals("8768068039") && password.equals("admin@123")){
+                if (user != null) {
+                    // login successful
+                    
                     SharedPreferences sharedPreferences = getSharedPreferences("loginData", MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
-                    editor.putString("username", userID);
+                    editor.putString("username", userTele);
                     editor.putBoolean("isLoggedIn", true);
                     editor.apply();
                     // Start the Home activity
                     Intent in = new Intent(patient_login.this, Patient_Page.class);
                     startActivity(in);
+                    Toast.makeText(patient_login.this, "Successfully logged In !!!", Toast.LENGTH_SHORT).show();
                     finish();
+
                 } else {
-                Toast.makeText(patient_login.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
+                    // login failed
+                    Toast.makeText(patient_login.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
+                }
             }
+        });
+
+
+        TextView t = findViewById(R.id.createAcnt);
+        t.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(patient_login.this, Create_acnt.class);
+                startActivity(i);
             }
         });
     }
