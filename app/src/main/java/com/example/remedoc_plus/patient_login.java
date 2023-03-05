@@ -35,7 +35,7 @@ public class patient_login extends AppCompatActivity {
 
                 if (user != null) {
                     // login successful
-
+                    
                     SharedPreferences sharedPreferences = getSharedPreferences("loginData", MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString("username", userTele);
