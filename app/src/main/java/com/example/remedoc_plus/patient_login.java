@@ -44,25 +44,13 @@ public class patient_login extends AppCompatActivity {
                     // Start the Home activity
                     Intent in = new Intent(patient_login.this, Patient_Page.class);
                     startActivity(in);
+                    Toast.makeText(patient_login.this, "Successfully logged In !!!", Toast.LENGTH_SHORT).show();
                     finish();
 
                 } else {
                     // login failed
                     Toast.makeText(patient_login.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
                 }
-//                if (userTele.equals("000") && userPass.equals("admin@123")){
-//                    SharedPreferences sharedPreferences = getSharedPreferences("loginData", MODE_PRIVATE);
-//                    SharedPreferences.Editor editor = sharedPreferences.edit();
-//                    editor.putString("username", userTele);
-//                    editor.putBoolean("isLoggedIn", true);
-//                    editor.apply();
-//                    // Start the Home activity
-//                    Intent in = new Intent(patient_login.this, Patient_Page.class);
-//                    startActivity(in);
-//                    finish();
-//                } else {
-//                    Toast.makeText(patient_login.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
-//                }
             }
         });
 
