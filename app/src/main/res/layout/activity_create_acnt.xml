@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".Create_acnt">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/PersonName"
         android:layout_width="286dp"
-        android:layout_height="49dp"
+        android:layout_height="45dp"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:text="Full Name"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,36 +23,38 @@
         app:layout_constraintVertical_bias="0.256" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/newPassword"
         android:layout_width="286dp"
         android:layout_height="40dp"
         android:ems="10"
+        android:hint="password"
         android:inputType="textPassword"
+        android:paddingStart="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.539" />
 
     <TextView
         android:id="@+id/textView62"
-        android:layout_width="298dp"
-        android:layout_height="49dp"
+        android:layout_width="334dp"
+        android:layout_height="74dp"
         android:text="Create an Account"
         android:textAlignment="center"
         android:textColor="@color/purple"
-        android:textSize="34sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintVertical_bias="0.07" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signInBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
@@ -59,41 +62,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
 
     <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="103dp"
-        android:layout_height="33dp"
+        android:id="@+id/userTele"
+        android:layout_width="286dp"
+        android:layout_height="53dp"
         android:ems="10"
-        android:inputType="number"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingStart="85dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.066" />
-
-    <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="150dp"
-        android:layout_height="38dp"
-        android:ems="10"
-        android:inputType="date"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="314dp"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="289dp"
-        android:layout_height="39dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Address"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="384dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

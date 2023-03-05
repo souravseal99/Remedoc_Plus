@@ -6,12 +6,12 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-public class dbHelper extends SQLiteOpenHelper {
+public class login_dbHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "loginInfo.db";
     private static final int DB_VER = 1;
 
-    public dbHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
+    public login_dbHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
 
