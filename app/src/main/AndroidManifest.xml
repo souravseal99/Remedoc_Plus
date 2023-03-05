@@ -15,6 +15,9 @@
             android:name=".Book_app1"
             android:exported="false" />
         <activity
+            android:name=".Create_acnt"
+            android:exported="false" />
+        <activity
             android:name=".Patient_Page"
             android:exported="false" />
         <activity
