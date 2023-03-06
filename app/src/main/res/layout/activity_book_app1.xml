@@ -72,7 +72,7 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="330dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="328dp"
+        android:layout_marginBottom="336dp"
         android:background="@drawable/edit"
         android:ems="10"
         android:hint="Patient name"
@@ -80,14 +80,14 @@
         android:paddingStart="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="330dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginBottom="416dp"
         android:background="@drawable/edit"
         android:ems="10"
         android:hint="Doctor registration no"
@@ -108,7 +108,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.089"
         app:srcCompat="@drawable/img" />
 
 

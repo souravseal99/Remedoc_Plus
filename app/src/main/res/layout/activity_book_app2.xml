@@ -110,26 +110,11 @@
         app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="256dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="44dp"
-        android:text="@string/heading"
-        android:textColor="@color/purple"
-        android:textSize="53sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="68dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -138,18 +123,19 @@
 
     <TextView
         android:id="@+id/prefered_time"
-        android:layout_width="270dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="356dp"
+        android:layout_width="312dp"
+        android:layout_height="82dp"
         android:ems="10"
         android:fontFamily="@font/arbutus"
         android:hint="Booking Details"
         android:inputType="textPersonName"
         android:paddingStart="15dp"
         android:paddingTop="15dp"
-        android:textSize="25sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
 </androidx.constraintlayout.widget.ConstraintLayout>

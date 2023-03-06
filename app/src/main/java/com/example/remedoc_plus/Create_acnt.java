@@ -34,6 +34,9 @@ public class Create_acnt extends AppCompatActivity {
                 String tele = etTele.getText().toString();
                 String password = etPassword.getText().toString();
 
+               // Intent intent=new Intent(Create_acnt.this,Patient_Page.class);
+              //  intent.putExtra("key_user_name",name);
+
                 UserDataSource dataSource = new UserDataSource(getApplicationContext());
                 dataSource.open();
 
