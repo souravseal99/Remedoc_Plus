@@ -13,6 +13,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -47,6 +48,7 @@ public class Book_app1 extends AppCompatActivity {
                 String patient_name=p_name.getText().toString();
                 String prefered_date=pd.getText().toString();
                 String prefered_time=pt.getText().toString();
+                Toast.makeText(Book_app1.this, "Booking done successfully", Toast.LENGTH_SHORT).show();
 
                 Intent intent=new Intent(Book_app1.this,Book_app2.class);
                 intent.putExtra("key_id",doc_id);
