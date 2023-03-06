@@ -12,18 +12,33 @@
         android:theme="@style/Theme.Remedoc_plus"
         tools:targetApi="31">
         <activity
-
+            android:name=".search_doc5"
+            android:exported="false" />
+        <activity
+            android:name=".search_doc4"
+            android:exported="false" />
+        <activity
+            android:name=".search_doc3"
+            android:exported="false" />
+        <activity
+            android:name=".search_doc2"
+            android:exported="false" />
+        <activity
+            android:name=".search_doc1"
+            android:exported="false" />
+        <activity
+            android:name=".search_docHome"
+            android:exported="false" />
+        <activity
             android:name=".Book_app2"
             android:exported="false" />
         <activity
             android:name=".Book_app1"
             android:exported="false" />
-
         <activity
             android:name=".Create_acnt"
             android:exported="false" />
         <activity
-
             android:name=".Patient_Page"
             android:exported="false" />
         <activity
