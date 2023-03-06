@@ -25,4 +25,4 @@ public class Patient_Page extends AppCompatActivity {
             }
         });
     }
-    }
+}
