@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -43,6 +44,23 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    //implementation project(':search_doc')
+    //implementation sqlite
     implementation 'androidx.sqlite:sqlite:2.1.0'
+
+
+    // Firebase Authentication
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+
+    // Firebase Realtime Database
+    implementation 'com.google.firebase:firebase-database:19.3.1'
+
+    // Firebase Cloud Messaging
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+
+    // Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:31.2.3')
+    // Firebase analytics
+    implementation 'com.google.firebase:firebase-analytics'
+
+    // add firebase products here...
 }
