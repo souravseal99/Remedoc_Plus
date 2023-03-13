@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "597275050820",
+    "project_id": "remedoc-377902",
+    "storage_bucket": "remedoc-377902.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597275050820:android:1cd12ffbb2a727331f0d11",
+        "android_client_info": {
+          "package_name": "com.example.remedoc_plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597275050820-8jsl2m2jm9r0plvgkue5c38m4uo39nlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaYR1uEp9vlYN5puxZdV_mR4SI4xcjLJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597275050820-8jsl2m2jm9r0plvgkue5c38m4uo39nlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
