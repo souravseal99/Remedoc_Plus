@@ -12,15 +12,17 @@
         android:id="@+id/textView"
         android:layout_width="256dp"
         android:layout_height="84dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="48dp"
         android:text="@string/heading"
         android:textColor="@color/purple"
         android:textSize="53sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_login_doc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -33,21 +35,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.329" />
 
     <Button
         android:id="@+id/button_login_patient"
         android:layout_width="309dp"
         android:layout_height="182dp"
-        android:layout_marginTop="456dp"
         android:background="@drawable/login_patient"
         android:onClick="@string/title_activity_patient_login"
         android:text="."
         app:circularflow_defaultRadius="@dimen/cardview_compat_inset_shadow"
         app:circularflow_radiusInDP="40"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button_login_doc"
+        app:layout_constraintVertical_bias="0.15" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
