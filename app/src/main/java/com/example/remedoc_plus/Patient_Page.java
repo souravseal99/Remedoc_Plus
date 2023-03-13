@@ -6,9 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 
 public class Patient_Page extends AppCompatActivity {
@@ -22,6 +20,7 @@ public class Patient_Page extends AppCompatActivity {
 
          book_Doc = findViewById(R.id.book_doc);
          search_doc=findViewById(R.id.imageView5);
+
       //  TextView tv=findViewById(R.id.userText);
 
      //   Intent intent=getIntent();

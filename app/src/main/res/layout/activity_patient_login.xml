@@ -11,24 +11,23 @@
         android:id="@+id/patientLoginPassword"
         android:layout_width="280dp"
         android:layout_height="57dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/edit"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingStart="15dp"
         android:textAlignment="viewStart"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintTop_toBottomOf="@+id/patientLoginPhone" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="256dp"
         android:layout_height="84dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="52dp"
         android:text="@string/heading"
         android:textColor="@color/purple"
         android:textSize="53sp"
@@ -43,31 +42,29 @@
         android:id="@+id/patientLoginPhone"
         android:layout_width="280dp"
         android:layout_height="57dp"
+        android:layout_marginTop="48dp"
         android:background="@drawable/edit"
         android:ems="10"
         android:hint="Phone Number"
         android:inputType="phone"
         android:paddingStart="15dp"
         android:textAlignment="viewStart"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.345" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/patientLoginBtn"
         android:layout_width="153dp"
         android:layout_height="67dp"
+        android:layout_marginTop="52dp"
         android:paddingHorizontal="50dp"
         android:paddingVertical="20dp"
         android:text="Log in"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintTop_toBottomOf="@+id/patientLoginPassword" />
 
     <TextView
         android:id="@+id/createAcnt"
@@ -81,8 +78,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintTop_toBottomOf="@+id/patientLoginBtn"
+        app:layout_constraintVertical_bias="0.109" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
