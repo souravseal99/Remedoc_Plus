@@ -18,7 +18,7 @@ public class Patient_Page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_page);
 
-         book_Doc = findViewById(R.id.book_doc);
+         book_Doc = findViewById(R.id.book_app);
          search_doc=findViewById(R.id.imageView5);
 
       //  TextView tv=findViewById(R.id.userText);
