@@ -161,7 +161,7 @@
         app:srcCompat="@drawable/doc_2" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/userText"
         android:layout_width="211dp"
         android:layout_height="41dp"
         android:fontFamily="@font/archivo_black"

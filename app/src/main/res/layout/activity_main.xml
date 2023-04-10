@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.329" />
+        app:layout_constraintVertical_bias="0.367" />
 
     <Button
         android:id="@+id/button_login_patient"
@@ -48,8 +48,9 @@
         app:circularflow_radiusInDP="40"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_login_doc"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.354" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

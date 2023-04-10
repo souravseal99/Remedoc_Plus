@@ -20,11 +20,10 @@ public class MainActivity extends AppCompatActivity {
         btn_ptnt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, patient_login.class);
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(i);
             }
         });
 
-        FirebaseApp.initializeApp(this);
     }
 }
