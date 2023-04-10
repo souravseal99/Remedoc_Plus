@@ -9,9 +9,8 @@
 
     <TextView
         android:id="@+id/textView37"
-        android:layout_width="345dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/arbutus"
+        android:layout_width="241dp"
+        android:layout_height="41dp"
         android:paddingLeft="13dp"
         android:text="Doctor's Category"
         android:textSize="28sp"
@@ -19,66 +18,87 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081" />
+        app:layout_constraintVertical_bias="0.036" />
+
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="240dp"
         android:layout_height="92dp"
+        android:layout_marginTop="34dp"
         android:layout_marginBottom="84dp"
+        android:contentDescription="Psychatrist"
         android:onClick="openActivity5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/psy_img" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/psy_img"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="240dp"
         android:layout_height="92dp"
         android:layout_marginBottom="176dp"
+        android:contentDescription="Gynecologist"
         android:onClick="openActivity4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/gyne_img" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.384"
+        app:srcCompat="@drawable/gyne_img"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="240dp"
         android:layout_height="92dp"
         android:layout_marginBottom="268dp"
+        android:contentDescription="ent"
         android:onClick="openActivity3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ent_img" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.326"
+        app:srcCompat="@drawable/ent_img"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="240dp"
         android:layout_height="92dp"
         android:layout_marginBottom="360dp"
+        android:contentDescription="Dentist"
         android:onClick="openActivity2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dentist_img" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.246"
+        app:srcCompat="@drawable/dentist_img"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="240dp"
         android:layout_height="92dp"
-        android:layout_marginBottom="452dp"
+        android:contentDescription="Cardiologist"
         android:onClick="openActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/cardio_img" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@drawable/cardio_img"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

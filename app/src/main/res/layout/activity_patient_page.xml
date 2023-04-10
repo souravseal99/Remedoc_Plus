@@ -30,75 +30,78 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035"
+        app:layout_constraintVertical_bias="0.008"
         app:srcCompat="@drawable/img_3" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/userText"
         android:layout_width="179dp"
         android:layout_height="52dp"
-        android:layout_marginTop="20dp"
         android:fontFamily="monospace"
         android:text=" Hello 👋"
         android:textAlignment="center"
         android:textSize="30dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="121dp" />
-
-    <ImageView
-        android:id="@+id/book_app"
-        android:layout_width="155dp"
-        android:layout_height="121dp"
-        android:layout_marginTop="105dp"
+        app:layout_constraintBottom_toTopOf="@+id/editProf_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/img_1" />
-
-    <ImageView
-        android:id="@+id/editProf_btn"
-        android:layout_width="155dp"
-        android:layout_height="121dp"
-        android:layout_marginTop="104dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/edit_profile" />
-
-    <ImageView
-        android:id="@+id/searchdoc_btn"
-        android:layout_width="155dp"
-        android:layout_height="121dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/remindmed_btn"
-        app:layout_constraintHorizontal_bias="0.692"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/book_app"
-        app:layout_constraintVertical_bias="0.035"
-        app:srcCompat="@drawable/img_2" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/remindmed_btn"
         android:layout_width="155dp"
         android:layout_height="121dp"
-        android:layout_marginTop="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editProf_btn"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.369"
         app:srcCompat="@drawable/remind_med" />
+
+    <ImageView
+        android:id="@+id/book_app"
+        android:layout_width="155dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.241"
+        app:srcCompat="@drawable/img_1" />
+
+    <ImageView
+        android:id="@+id/searchdoc_btn"
+        android:layout_width="155dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/remindmed_btn"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_app"
+        app:layout_constraintVertical_bias="0.369"
+        app:srcCompat="@drawable/img_2" />
+
+    <ImageView
+        android:id="@+id/editProf_btn"
+        android:layout_width="155dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toEndOf="@+id/book_app"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.241"
+        app:srcCompat="@drawable/edit_profile" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_percent="0.02872777" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
